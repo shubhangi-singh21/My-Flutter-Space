@@ -38,65 +38,47 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                margin: EdgeInsets.symmetric(
-                  vertical: 20.0,
-                  horizontal: 80.0,
-                ),
-                color: Color(0xffebd4d4),
-                child: Padding(
-                  padding: const EdgeInsets.all(25.0),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.add_call,
-                        color: Color(0xff463333),
-                      ),
-                      SizedBox(
-                        width: 30.0,
-                      ),
-                      Text(
-                        '+91 9182007340',
-                        style: GoogleFonts.poppins(
-                          color: Color(0xff463333),
-                          fontSize: 18.0,
-                          fontWeight: FontWeight.w500,
-                          textStyle: Theme.of(context).textTheme.bodyText1,
-                        ),
-                      ),
-                    ],
+                  margin: EdgeInsets.symmetric(
+                    vertical: 20.0,
+                    horizontal: 80.0,
                   ),
-                ),
-              ),
+                  color: Color(0xffebd4d4),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.add_call,
+                      color: Color(0xff463333),
+                    ),
+                    title: Text(
+                      '+91 9182007340',
+                      style: GoogleFonts.poppins(
+                        color: Color(0xff463333),
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.w500,
+                        textStyle: Theme.of(context).textTheme.bodyText1,
+                      ),
+                    ),
+                  )),
               Card(
-                margin: EdgeInsets.symmetric(
-                  vertical: 20.0,
-                  horizontal: 80.0,
-                ),
-                color: Color(0xffebd4d4),
-                child: Padding(
-                  padding: const EdgeInsets.all(25.0),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.add_location,
-                        color: Color(0xff463333),
-                      ),
-                      SizedBox(
-                        width: 30.0,
-                      ),
-                      Text(
-                        'India',
-                        style: GoogleFonts.poppins(
-                          color: Color(0xff463333),
-                          fontSize: 18.0,
-                          fontWeight: FontWeight.w500,
-                          textStyle: Theme.of(context).textTheme.bodyText1,
-                        ),
-                      ),
-                    ],
+                  margin: EdgeInsets.symmetric(
+                    vertical: 20.0,
+                    horizontal: 80.0,
                   ),
-                ),
-              ),
+                  color: Color(0xffebd4d4),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.add_location,
+                      color: Color(0xff463333),
+                    ),
+                    title: Text(
+                      'India',
+                      style: GoogleFonts.poppins(
+                        color: Color(0xff463333),
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.w500,
+                        textStyle: Theme.of(context).textTheme.bodyText1,
+                      ),
+                    ),
+                  )),
             ],
           ),
         ),
