@@ -2,4 +2,4 @@
 
 ____
 
-<img src="images/name_card.png" width="200">
+<img src="images/name_card.png" width="400">
